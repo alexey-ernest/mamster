@@ -1,0 +1,31 @@
+{
+  "name": "mamster",
+  "version": "1.0.0",
+  "description": "Mamster commercial project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexey-ernest/mamster"
+  },
+  "keywords": [
+    "mamster",
+    "node.js",
+    "messanger"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-ernest/mamster/issues"
+  },
+  "homepage": "https://github.com/alexey-ernest/mamster",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.12.4",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
